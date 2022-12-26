@@ -12,7 +12,7 @@ const Header = (props: Props) => {
     return (
         <>
             <AppBar position="static">
-                <Container naxWidth="lg">
+                <Container maxWidth="lg">
                     <Toolbar>
                         <IconButton
                             size="large"
