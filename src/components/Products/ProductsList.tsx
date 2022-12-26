@@ -14,13 +14,13 @@ const ProductsList = (props: Props) => {
                 spacing={4}
             >
                 <Grid item xs={12} sm={6} md={4}>
-                    <ProductsListItem />
+                    <ProductsListItem title="iPhon X" />
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <ProductsListItem />
+                    <ProductsListItem title="iPhon 14 pro" />
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <ProductsListItem />
+                    <ProductsListItem title="iPhon 12" />
                 </Grid>
             </Grid>
         </>
