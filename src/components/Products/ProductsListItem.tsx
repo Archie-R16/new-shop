@@ -4,8 +4,8 @@ type Props = {}
 
 const ProductsListItems = (props: Props) => {
     return (
-        <Card>
-            <CardContent className="product">
+        <Card className="product" variant="outlined">
+            <CardContent>
                 <div className="product-title">iPhone X</div>
                 <div className="product-dec">Thes is iPone X</div>
                 <div className="product-features">
