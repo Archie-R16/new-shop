@@ -2,6 +2,10 @@ import { Button, Card, CardActions, CardContent } from '@mui/material'
 import './ProductsListItem.scss'
 type Props = {
     title: string
+    desc: string
+    type: string
+    capasiti: string
+    prais: number
 }
 
 const ProductsListItems = (props: Props) => {
@@ -9,15 +13,16 @@ const ProductsListItems = (props: Props) => {
         <Card className="product" variant="outlined">
             <CardContent>
                 <div className="product-title">{props.title}</div>
-                <div className="product-dec">Thes is iPone X</div>
+                <div className="product-dec">{props.desc}</div>
                 <div className="product-features">
-                    <span>Type:</span> phone
+                    <span>Type:</span> {props.type}
                 </div>
                 <div className="product-features">
-                    <span>Capasity:</span> 64Gb
+                    <span>Capasity:</span> {props.capasiti}Gb
                 </div>
                 <div className="product-price">
-                    <span>Praice:</span>500$
+                    <span>Praice:</span>
+                    {props.prais}$
                 </div>
             </CardContent>
             <CardActions className="btns-wrap">
