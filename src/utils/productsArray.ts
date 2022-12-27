@@ -1,4 +1,5 @@
 
+
 type ProductProps = {
     id:number
     title: string
@@ -6,6 +7,7 @@ type ProductProps = {
     type: string
     capasiti: string
     prais: number
+    image:string
 }
 
 
@@ -16,7 +18,8 @@ const productsArray:ProductProps[] = [
         desc:'Thes is iPhone 14pro',
         type:'phone',
         capasiti:'256',
-        prais:1000
+        prais:1000,
+        image:"/images/iphon-purple.jpg"
     },
     {
         id:2,
@@ -24,7 +27,8 @@ const productsArray:ProductProps[] = [
         desc:'Thes is iPhone 13',
         type:'phone',
         capasiti:'128',
-        prais:500
+        prais:500,
+        image:"/images/iphon-gold.jpg"
     },
     {
         id:3,
@@ -32,7 +36,8 @@ const productsArray:ProductProps[] = [
         desc:'Thes is iPhone 13',
         type:'phone',
         capasiti:'64',
-        prais:2000
+        prais:2000,
+        image:"/images/iphon-green.jpg"
     },
     {
         id:4,
@@ -40,7 +45,8 @@ const productsArray:ProductProps[] = [
         desc:'Thes is iPhone 11pro',
         type:'phone',
         capasiti:'256',
-        prais:1000
+        prais:1000,
+        image:"/images/iphon-whit.jpg"
     },
     {
         id:5,
@@ -48,7 +54,8 @@ const productsArray:ProductProps[] = [
         desc:'Thes is iPhone 13pro Max',
         type:'phone',
         capasiti:'512',
-        prais:1500
+        prais:1500,
+        image:"/images/iphon-red.jpg"
     },
     {
         id:6,
@@ -56,7 +63,8 @@ const productsArray:ProductProps[] = [
         desc:'Thes is iPhone X',
         type:'phone',
         capasiti:'64',
-        prais:500
+        prais:500,
+        image:"/images/iphon-blak.jpg"
     },
 ]
 
