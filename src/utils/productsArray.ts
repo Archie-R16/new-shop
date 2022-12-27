@@ -1,5 +1,6 @@
 
 type ProductProps = {
+    id:number
     title: string
     desc: string
     type: string
@@ -10,6 +11,7 @@ type ProductProps = {
 
 const productsArray:ProductProps[] = [
     {
+        id:1,
         title:'iPhone 14pro',
         desc:'Thes is iPhone 14pro',
         type:'phone',
@@ -17,6 +19,7 @@ const productsArray:ProductProps[] = [
         prais:1000
     },
     {
+        id:2,
         title:'iPhone 13pro',
         desc:'Thes is iPhone 13',
         type:'phone',
@@ -24,6 +27,7 @@ const productsArray:ProductProps[] = [
         prais:500
     },
     {
+        id:3,
         title:'iPhone 13',
         desc:'Thes is iPhone 13',
         type:'phone',
@@ -31,6 +35,7 @@ const productsArray:ProductProps[] = [
         prais:2000
     },
     {
+        id:4,
         title:'iPhone 11pro',
         desc:'Thes is iPhone 11pro',
         type:'phone',
@@ -38,6 +43,7 @@ const productsArray:ProductProps[] = [
         prais:1000
     },
     {
+        id:5,
         title:'iPhone 13pro Max',
         desc:'Thes is iPhone 13pro Max',
         type:'phone',
@@ -45,6 +51,7 @@ const productsArray:ProductProps[] = [
         prais:1500
     },
     {
+        id:6,
         title:'iPhone X',
         desc:'Thes is iPhone X',
         type:'phone',
