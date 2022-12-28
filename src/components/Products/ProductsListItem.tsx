@@ -55,7 +55,7 @@ class ProductsListItem extends Component<Props, State> {
                         <TextField value={this.state.count} size="small" />
                         <Button
                             variant="outlined"
-                            onClick={() => this.onIncrement(1)}
+                            onClick={() => this.onIncrement()}
                         >
                             +
                         </Button>
